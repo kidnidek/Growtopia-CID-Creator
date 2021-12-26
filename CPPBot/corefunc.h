@@ -287,7 +287,7 @@ public:
 						string growid = explode("`` created.  Write it and your password", explode("add_textbox|A `wGrowID`` with the log on of `w", ctx)[1])[0];
 						string passwr = "" + Password_acc;
 						cout << "Account succesfully created! GrowID: " << growid << ",Password: " << Password_acc << endl;
-						appendAcc("User: " + growid + ",Password: " + Password_acc);
+						appendAcc("User: " + growid + ",Password: " + Password_acc + ",Gmail: " + Gmail_acc + to_string(START_GMAIL -1) + "@gmail.com");
 						enet_peer_disconnect_later(peer, 0);
 					}
 				}
