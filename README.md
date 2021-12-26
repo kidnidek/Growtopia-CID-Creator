@@ -2,7 +2,7 @@
 
 # What features does it have ?
 
-Growtopia-CID-Creator is allows you to make 50-100 account in few minutes. Growtopia-CID-Creator has an Auto Version Update, Customization's like Custom Username, Password, gmail.
+Growtopia-CID-Creator is allows you to make 50-100 account in few minutes. Growtopia-CID-Creator has an Auto Version Update, Gmail Support, Customization's like Custom Username, Password, gmail.
 
 Discord upy#5939
 
