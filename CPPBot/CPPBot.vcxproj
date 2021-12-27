@@ -166,12 +166,14 @@
     <ClInclude Include="enet\unix.h" />
     <ClInclude Include="enet\utility.h" />
     <ClInclude Include="enet\win32.h" />
+    <ClInclude Include="HTTPRequest.hpp" />
     <ClInclude Include="proton\hash.hpp" />
     <ClInclude Include="proton\rtparam.hpp" />
     <ClInclude Include="proton\variant.hpp" />
     <ClInclude Include="proton\vector.hpp" />
     <ClInclude Include="userfunc.h" />
     <ClInclude Include="utilsfunc.h" />
+    <ClInclude Include="xor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPPBot.cpp" />
