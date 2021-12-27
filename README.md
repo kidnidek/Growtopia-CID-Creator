@@ -8,6 +8,3 @@ Discord upy#5939
 
 # Preview
 ![image](https://user-images.githubusercontent.com/83706783/147497134-5d68a203-cd75-47cb-8885-1efc0f4bd614.png)
-
-# TODO
-Auto Port & Ip
