@@ -6,7 +6,7 @@
 # How to use in Google cloud shell & termux
 https://github.com/upyxs/Growtopia-CID-Creator/blob/main/Termux/HowtoUse.md
 
-#How to use in PC
+# How to use in PC
 Soon
 
 Discord upy#5939
