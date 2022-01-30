@@ -2,7 +2,7 @@
 
 * Visit https://console.cloud.google.com/ and click the emoji that in the middle of gift and question mark emoji on right corner.
 * After your cloud shell terminal ready paste this > git clone https://github.com/upyxs/Growtopia-CID-Creator and press enter.
-* Write cd Growtopia-CID-Creator/ and press enter again.
+* Write cd Growtopia-CID-Creator/Termux/ and press enter again.
 * After that enter those commands: chmod +x build.sh and hit enter then ./build* and wait for it to load. ( Note: It will ask you this: Do you want to continue? [Y/n] write y into terminal and hit enter button )
 * If you can see this message on your terminal: Tool succesfuly builded, you can start creating ID by typing ./id then type ./id but, If you can't see that message write ./build* again.
 * If you want to stop creating do CTRL+C and to download created accounts write this: cloudshell download acc.txt and click the download button.
