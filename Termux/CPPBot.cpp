@@ -21,24 +21,8 @@ vector<GrowtopiaBot> bots;
 
 GrowtopiaBot bot = { "", "", "", -1 };
 
-void ParseServer() {
-    http::Request request{ "http://growtopia1.com/growtopia/server_data.php" };
-    const auto response = request.send("POST", "version=1&protocol=128", { "Content-Type: application/x-www-form-urlencoded" });
-    rtvar var = rtvar::parse({ response.body.begin(), response.body.end() });
-
-    var.serialize();
-    if (var.get("server") == "127.0.0.1") {
-        return;
-    }
-    if (var.find("server")) {
-        bot.SERVER_HOST = var.get("server");
-        bot.SERVER_PORT = std::stoi(var.get("port"));
-    }
-    cout << "Parsed Server " << bot.SERVER_HOST << ":" << std::to_string(bot.SERVER_PORT) << "." << endl;
-}
-
 int main() {
-	ParseServer();
+	//Auto parser soon.
 	init();
 	string gid,gps,em,ip;
 	int port;
@@ -53,6 +37,9 @@ int main() {
 	Password_acc = gps;
 	Gmail_acc = em;
 	
+        bot.SERVER_HOST = "213.179.209.168";
+        bot.SERVER_PORT = 17246;
+
 	bot.userInit();
 	bots.push_back(bot);
 
