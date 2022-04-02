@@ -9,4 +9,7 @@ https://github.com/upyxs/Growtopia-CID-Creator/blob/main/Termux/HowtoUse.md
 # How to use in PC
 Soon
 
+# Changelogs
+Fixed error connecting or Stuck at login.
+
 Discord upy#5939
