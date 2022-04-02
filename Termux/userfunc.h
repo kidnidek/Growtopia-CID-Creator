@@ -87,7 +87,7 @@ void GrowtopiaBot::onLoginRequested()
 	string ver = gameVersion;
 	string hash = std::to_string((unsigned int)rand());
 	string hash2 = std::to_string((unsigned int)rand());
-	SendPacket(2, "tankIDName|" + uname + "\ntankIDPass|" + upass + "\nrequestedName|SmellZero\nf|1\nprotocol|127\ngame_version|" + ver + "\nfz|5367464\nlmode|0\ncbits|0\nplayer_age|18\nGDPR|1\nhash2|" + hash2 + "\nmeta|" + generateMeta() + "\nfhash|-716928004\nrid|" + generateRid() + "\nplatformID|0\ndeviceVersion|0\ncountry|us\nhash|" + hash + "\nmac|" + generateMac() + "\nwk|" + generateRid() + "\nzf|-496303939" + token, peer);
+	SendPacket(2, "tankIDName|" + uname + "\ntankIDPass|" + upass + "\nrequestedName|SmileZero\nf|1\nprotocol|128\ngame_version|" + ver + "\nlmode|0\ncbits|0\nplayer_age|60\nGDPR|1\ncategory_-5100gid|\ntr|4322\nmeta|defined\nfhash|-716928004\nrid|" + generateRid() + "\nplatformID|4\ndeviceVersion|0\ncountry|tr\nhash|" + hash + "\nmac|" + generateMac() + token, peer);
 }
 void GrowtopiaBot::packet_type3(string text)
 {
