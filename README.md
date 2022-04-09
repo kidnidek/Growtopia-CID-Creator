@@ -1,3 +1,6 @@
+# Important
+Cid is currently not working because GT did changed something in login packet, will be fixed later.
+
 # Growtopia-CID-Creator
 
 # There are 2 versions named PC and Termux.
