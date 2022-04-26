@@ -22,7 +22,7 @@ using json = nlohmann::json;
 string Growid_acc = "upybomberpros";
 string Password_acc = "Upydabest123.";
 string Gmail_acc = "upydababyprook";
-string gameVersion = "3.70";
+string gameVersion = "3.86";
 int START_ACC = 1;
 int START_GMAIL = 1;
 
